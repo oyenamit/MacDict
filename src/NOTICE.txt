@@ -1,0 +1,5 @@
+MacDict Firefox extension.
+Copyright 2013 Namit Bhalla (oyenamit@gmail.com)
+
+This product includes software developed by
+Namit Bhalla (oyenamit@gmail.com)

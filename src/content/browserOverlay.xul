@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+
+
+<!-- ***** BEGIN LICENSE BLOCK *****
+-
+- Copyright 2013 Namit Bhalla (oyenamit@gmail.com)
+-
+- Licensed under the Apache License, Version 2.0 (the "License");
+- you may not use this file except in compliance with the License.
+- You may obtain a copy of the License at
+-
+-     http://www.apache.org/licenses/LICENSE-2.0
+-
+- Unless required by applicable law or agreed to in writing, software
+- distributed under the License is distributed on an "AS IS" BASIS,
+- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+- See the License for the specific language governing permissions and
+- limitations under the License.
+-
+- The original code is the MacDict Firefox extension.
+-
+- ***** END LICENSE BLOCK ***** -->
+
+
+<?xml-stylesheet type="text/css" href="chrome://global/skin/" ?>
+<!DOCTYPE overlay SYSTEM "chrome://macdict/locale/browserOverlay.dtd"> 
+
+<overlay id="macdict-browser-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+    <script type="application/x-javascript" src="chrome://macdict/content/browserOverlay.js" />
+
+    <!-- Add an entry to the Firefox right-click context menu -->
+    <popup id="contentAreaContextMenu">
+        <menuitem id="macdict-menuitem" label="&macdict.menuitem.lookup;" oncommand="NSMacDict.BrowserOverlay.onLookupDict(event);"/>
+    </popup>
+
+</overlay>
+
