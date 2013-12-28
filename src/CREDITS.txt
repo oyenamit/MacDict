@@ -1,4 +1,9 @@
 The icons used in this software were downloaded from http://findicons.com/
 
-macdict-iconURL.png
+macdict-iconURL.png and macdict-icon64URL.png
 http://findicons.com/icon/64118/dictionary?id=64272
+
+
+Localization acknowledgements
+-------------------------------
+German localization by Sierk Bornemann (sierkb@gmail.com)
